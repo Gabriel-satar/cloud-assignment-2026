@@ -2,41 +2,150 @@
 <html>
 <head>
     <title>DCM.Org | Contact</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
-        body { margin: 0; font-family: sans-serif; display: flex; flex-direction: column; min-height: 100vh; }
-        nav { background: #111; padding: 20px; display: flex; justify-content: space-between; align-items: center; }
-        .logo img { height: 80px; }
-        nav a { color: white; text-decoration: none; margin-left: 20px; font-weight: bold; }
-        main { flex: 1; background: url('backgroung image.jpg') center/cover; padding: 60px 20px; }
-        .container { background: rgba(255, 255, 255, 0.95); padding: 40px; max-width: 500px; margin: auto; border-radius: 10px; text-align: center; }
-        footer { background: #111; color: #666; text-align: center; padding: 20px; }
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        nav {
+            background: #111;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 80px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        main {
+            flex: 1;
+            background: url('backgroung image.jpg') center/cover;
+            padding: 60px 20px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            max-width: 500px;
+            margin: auto;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        footer {
+            background: #111;
+            color: #666;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+
+            nav {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav div:last-child {
+                margin-top: 15px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 10px;
+            }
+
+            .logo img {
+                height: 60px;
+            }
+
+            main {
+                padding: 30px 15px;
+            }
+
+            .container {
+                width: 90%;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h3 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+        }
+
     </style>
 </head>
 <body>
+
     <nav>
-        <div class="logo"><img src="cloud logo.png" alt="Logo"></div>
+
+        <div class="logo">
+            <img src="cloud logo.png" alt="Logo">
+        </div>
+
         <div>
             <a href="index.html.html">Home</a>
             <a href="about.html.html">About</a>
             <a href="contact.html.html">Contact</a>
         </div>
+
     </nav>
+
     <main>
+
         <div class="container">
+
             <h1>Get in Touch</h1>
+
             <p>We are always happy to discuss how we can assist your organization with its technical requirements.</p>
+
             <div style="margin: 20px 0;">
                 <p>📍 <strong>Location:</strong> Arusha, Tanzania</p>
                 <p>📞 <strong>Phone:</strong> +255 754 123 456</p>
                 <p>✉️ <strong>Email:</strong> info@dcm.org</p>
             </div>
+
             <hr>
+
             <h3>Working Hours</h3>
+
             <p>Our team is available to assist you during the following hours (EAT):</p>
+
             <p><strong>Monday - Friday:</strong> 8:00 AM - 5:00 PM</p>
+
             <p><strong>Saturday:</strong> 9:00 AM - 1:00 PM</p>
+
         </div>
+
     </main>
+
     <footer>&copy; 2026 DCM.Org. We look forward to hearing from you.</footer>
+
 </body>
 </html>
