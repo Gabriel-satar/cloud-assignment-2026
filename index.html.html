@@ -1,75 +1,48 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
-    <title>DCM.Org |Our home page</title>
-
-   <style>
+    <title>DCM.Org | Our home page</title>
+    <style>
         body { margin: 0; font-family: sans-serif; display: flex; flex-direction: column; min-height: 100vh; }
         nav { background: #111; padding: 20px; display: flex; justify-content: space-between; align-items: center; }
         .logo img { height: 80px; }
         nav a { color: white; text-decoration: none; margin-left: 20px; font-weight: bold; }
-        main { flex: 1; background: url('backgroung image.jpg') center/cover; padding: 60px 20px; }
+        
+        main { flex: 1; background: url('background image.jpg') center/cover; padding: 60px 20px; }
         .container { background: rgba(255, 255, 255, 0.95); padding: 40px; max-width: 800px; margin: auto; border-radius: 10px; line-height: 1.6; }
+        
+        /* Added missing CSS for service boxes */
+        .services { display: flex; gap: 20px; margin-top: 30px; }
+        .box { background: #f4f4f4; padding: 20px; border: 1px solid #ddd; flex: 1; }
+        
         footer { background: #111; color: #666; text-align: center; padding: 20px; }
     </style>
 </head>
-
 <body>
-
     <nav>
-
         <div class="logo"><img src="cloud logo.png" alt="Logo"></div>
-
         <div>
-
-            <a href="index.html.html">Home</a>
-
-            <a href="about.html.html">About</a>
-
-            <a href="contact.html.html">Contact</a>
-
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
         </div>
-
     </nav>
-
     <main>
-
         <div class="container">
-
             <h1>Welcome to DCM.Org</h1>
-
             <p>At DCM.Org, we specialize in bridging the critical gap between complex hardware infrastructure and high-performance software. We empower businesses to operate with greater efficiency by creating technology foundations that are not only robust but also easy to manage.</p>
-
             <div class="services">
-
                 <div class="box">
-
                     <h3>Server Infrastructure</h3>
-
                     <p>We provide end-to-end server installation, hardening, and network configuration. We believe in empowering your team, so we include comprehensive training sessions to ensure your staff can confidently maintain your systems.</p>
-
                 </div>
-
                 <div class="box">
-
                     <h3>Software Solutions</h3>
-
                     <p>Our development team builds custom software designed specifically for your operational needs. We act as your technology partner, offering expert advisory services from the initial planning phase through to final deployment.</p>
-
                 </div>
-
             </div>
-
         </div>
-
     </main>
-
     <footer>&copy; 2026 DCM.Org. Providing professional technology solutions for growing businesses.</footer>
-
 </body>
-
-</html> 
-
+</html>
